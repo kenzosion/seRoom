@@ -2,12 +2,12 @@
 import {of as observableOf,  Observable } from 'rxjs';
 
 import {catchError, map} from 'rxjs/operators';
-import { Injectable }       from '@angular/core';
+import { Injectable } from '@angular/core';
 import {
   CanActivate, Router,
   ActivatedRouteSnapshot,
   RouterStateSnapshot
-}                           from '@angular/router';
+} from '@angular/router';
 import { RentalService } from './rental.service';
 
 @Injectable()

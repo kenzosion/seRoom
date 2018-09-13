@@ -1,32 +1,32 @@
 {
   "rentals": [{
-      "title": "Nice view on ocean",
+      "title": "Nice view from San Fran",
       "city": "San Francisco",
       "street": "Main street",
-      "category": "condo",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
-      "bedrooms": 4,
+      "category": "flat",
+      "image": "https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg",
+      "bedrooms": 3,
       "shared": false,
-      "description": "Very nice apartment in center of the city.",
-      "dailyRate": 43
+      "description": "Very nice apartment in the city centre.",
+      "dailyRate": 88
       },
       {
-      "title": "Modern apartment in center",
-      "city": "New York",
-      "street": "Time Square",
+      "title": "New modern apartment",
+      "city": "London",
+      "street": "Brixton Road",
       "category": "apartment",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
-      "bedrooms": 1,
+      "image": "https://images.pexels.com/photos/276700/pexels-photo-276700.jpeg",
+      "bedrooms": 2,
       "shared": true,
-      "description": "Very nice apartment in center of the city.",
-      "dailyRate": 11
+      "description": "Cosy, clean and quiet new apartment.",
+      "dailyRate": 99
       },
       {
       "title": "Old house in nature",
       "city": "Spisska Nova Ves",
       "street": "Banicka 1",
       "category": "house",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
+      "image": "https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg",
       "bedrooms": 5,
       "shared": false,
       "description": "Very nice apartment in center of the city.",
@@ -37,7 +37,7 @@
       "city": "San Francisco",
       "street": "Green street",
       "category": "house",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
+      "image": "https://images.pexels.com/photos/276663/pexels-photo-276663.jpeg",
       "bedrooms": 2,
       "shared": false,
       "description": "Hiking routes 10 min walking away",
@@ -48,7 +48,7 @@
       "city": "San Francisco",
       "street": "Union Street",
       "category": "apartment",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
+      "image": "https://images.pexels.com/photos/276715/pexels-photo-276715.jpeg",
       "bedrooms": 3,
       "shared": false,
       "description": "Very nice apartment in China Town",
@@ -59,22 +59,11 @@
       "city": "New York",
       "street": "Long Island, Queens",
       "category": "house",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
+      "image": "https://images.pexels.com/photos/276686/pexels-photo-276686.jpeg",
       "bedrooms": 6,
       "shared": false,
       "description": "Very nice house in Long Island with garden",
       "dailyRate": 189
-    },
-    {
-      "title": "Cozy modern Condo",
-      "city": "New York",
-      "street": "Penn Station",
-      "category": "condo",
-      "image": "https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
-      "bedrooms": 3,
-      "shared": true,
-      "description": "Building close to Penn Station",
-      "dailyRate": 68
     }
   ],
   "users": [{
@@ -88,3 +77,4 @@
     }
   ]
 }
+
