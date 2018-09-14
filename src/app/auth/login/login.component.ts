@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
       if (params['registered'] === 'success') {
         this.notifyMessage = 'Registration successful! Please login';
       }
-    })
+    });
   }
 
   initForm() {
@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit {
       email: ['', [Validators.required,
                    Validators.pattern('^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$')]],
       password: ['', Validators.required]
-    })
+    });
   }
 
   isInvalidForm(fieldName): boolean {
@@ -45,7 +45,7 @@ export class LoginComponent implements OnInit {
 
   isRequired(fieldName): boolean {
     return this.loginForm.controls[fieldName].errors.required
-  }
+   }
 
   login() {
     this.auth.login(this.loginForm.value).subscribe(
@@ -54,6 +54,6 @@ export class LoginComponent implements OnInit {
       },
       (errorResponse) => {
         this.errors = errorResponse.error.errors;
-      })
+      });
   }
 }

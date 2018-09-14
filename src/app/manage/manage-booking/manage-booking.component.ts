@@ -20,7 +20,7 @@ export class ManageBookingComponent implements OnInit {
       },
       () => {
 
-      })
+      });
   }
 
 }

@@ -25,7 +25,7 @@ export class ManageRentalComponent implements OnInit {
       },
       () => {
 
-      })
+      });
   }
 
 
@@ -37,7 +37,7 @@ export class ManageRentalComponent implements OnInit {
       },
       (errorResponse: HttpErrorResponse) => {
         this.toastr.error(errorResponse.error.errors[0].detail, 'Failed!');
-      })
+      });
   }
 
 }
