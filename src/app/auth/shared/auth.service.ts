@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import * as moment from 'moment';
+// tslint:disable-next-line:import-blacklist
 import 'rxjs/Rx';
 
 const jwt = new JwtHelperService();
