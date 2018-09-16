@@ -23,9 +23,9 @@ export class RentalGuard implements CanActivate {
 
     return this.rentalService.verifyRentalUser(rentalId).pipe(map(() => {
       return true;
-    }),catchError(() => {
+    }), catchError(() => {
       this.router.navigate(['/rentals']);
       return observableOf(false);
-    }),)
+    }), );
   }
 }

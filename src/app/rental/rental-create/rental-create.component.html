@@ -91,7 +91,7 @@
             </div>
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="shared">Shared</label>
             <input type="checkbox"
                    class="form-control"
@@ -99,7 +99,7 @@
                    name="shared"
                    [(ngModel)]="newRental.shared"
                    required>
-          </div>
+          </div> -->
           <button (click)="createRental()"
                   [disabled]="!rentalForm.form.valid || !newRental.image"
                   type="button"

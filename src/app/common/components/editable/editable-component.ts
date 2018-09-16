@@ -8,7 +8,7 @@ export class EditableComponent implements OnChanges {
 
     this.entityField = entityField;
     this.setOriginValue();
-  };
+  }
 
   @Input() className: string;
 
