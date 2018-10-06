@@ -44,7 +44,7 @@ export class LoginComponent implements OnInit {
 
 
   isRequired(fieldName): boolean {
-    return this.loginForm.controls[fieldName].errors.required
+    return this.loginForm.controls[fieldName].errors.required;
    }
 
   login() {
