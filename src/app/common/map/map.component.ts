@@ -45,6 +45,7 @@ lng: number;
         this.ref.detectChanges();
       }, () => {
         this.isPositionError = true;
+        this.ref.detectChanges();
       });
   }
 
